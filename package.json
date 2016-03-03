@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "babel": "^5.8.21",
+    "babel-eslint": "~5.0",
     "babelify": "^6.1.3",
     "browser-sync": "^2.6.4",
     "browserify": "^5.10.0",
@@ -24,6 +25,7 @@
     "del": "^1.1.1",
     "exorcist": "^0.1.6",
     "express": "~4.9.7",
+    "gsap": "~1.18.2",
     "gulp": "git://github.com/gulpjs/gulp.git#4.0",
     "gulp-babel": "^5.1.0",
     "gulp-bump": "^0.3.1",
@@ -31,6 +33,7 @@
     "gulp-concat": "^2.4.0",
     "gulp-concat-sourcemap": "^1.3.1",
     "gulp-csso": "~0.2.9",
+    "gulp-eslint": "~2.0",
     "gulp-imagemin": "~1.2.1",
     "gulp-inject-string": "0.0.2",
     "gulp-jscs": "^1.6.0",
@@ -50,12 +53,15 @@
     "merge-stream": "^0.1.8",
     "mocha": "^1.21.4",
     "nib": "^1.0.3",
-    "nodemon": "^1.2.1",
     "node-jsx": "~0.11.0",
+    "nodemon": "^1.2.1",
     "opn": "~1.0.0",
     "react": "~0.11.2",
+    "react-dom": "~0.14.7",
     "reactify": "~0.14.0",
-    "socket.io": "^1.1.0",
+    "socket.io": "^1.4.5",
+    "stats.js": "~0.0.14",
+    "three": "0.74.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-paths": "^1.0.0",
     "vinyl-source-stream": "^0.1.1",
@@ -66,7 +72,8 @@
     "node": ">=0.10.0"
   },
   "browserify-shim": {
-    "math": "global:Math"
+    "math": "global:Math",
+    "gyro": "global:gyro"
   },
   "browserify": {
     "transform": [

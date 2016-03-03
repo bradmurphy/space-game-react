@@ -1,6 +1,5 @@
 'use strict';
 
-var config = require('./config');
-
-console.log(config);
-
+// let Server = require('./server');
+//
+// let app = new Server();
