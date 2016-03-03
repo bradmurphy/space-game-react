@@ -1,0 +1,26 @@
+{
+  "name": "fullmetalbracket",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "mattathook <matt@byhook.com>"
+  ],
+  "private": true,
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.14.7",
+    "three.js": "~0.74.0",
+    "gyro.js": "~1.0.0",
+    "stats.js": "*",
+    "greensock": "~1.18.2",
+    "PreloadJS": "~0.6.2"
+  }
+}
